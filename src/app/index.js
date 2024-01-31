@@ -10,3 +10,8 @@ class App extends React.component {
     );
   }
 }
+
+// call the render method,
+// 1st what to render, the initiall app,
+//  2nd arg, where to render it
+render(<App />, window.document.getElementById("app"));
